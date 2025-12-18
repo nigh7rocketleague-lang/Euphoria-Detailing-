@@ -1,0 +1,12 @@
+body{margin:0;background:#000;color:#eee;font-family:Arial,Helvetica,sans-serif;overflow-x:hidden}
+.hero{text-align:center;padding:50px 20px;background:linear-gradient(135deg,#000,#3b005f)}
+.logo{width:90px}
+.cta-row{margin-top:20px}
+.btn{display:inline-block;margin:8px;padding:14px 28px;background:#a855f7;color:#000;border-radius:30px;font-weight:800;text-decoration:none}
+.btn-outline{background:transparent;color:#c084fc;border:1px solid #c084fc}
+.card{background:#0d0d0d;max-width:900px;margin:30px auto;padding:25px;border-radius:14px}
+.diamonds{position:fixed;inset:0;pointer-events:none}
+.diamond{position:absolute;width:70px;height:70px;background:rgba(168,85,247,.35);transform:rotate(45deg);animation:float 9s infinite ease-in-out}
+.d1{top:10%;left:10%}.d2{top:30%;right:15%}.d3{top:55%;left:45%}
+.d4{top:70%;right:20%}.d5{top:85%;left:65%}.d6{top:20%;left:60%}
+@keyframes float{0%{transform:rotate(45deg) translateY(0)}50%{transform:rotate(45deg) translateY(-25px)}100%{transform:rotate(45deg) translateY(0)}}
